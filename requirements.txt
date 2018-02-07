@@ -1,0 +1,8 @@
+keras 
+imutils
+httplib2
+numpy
+opencv-python
+tensorflow
+requests
+h5py
