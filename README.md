@@ -14,26 +14,25 @@ Variables at %PATH%:
 > C:\Program Files\MeuScript\bin
 > C:\Program Files (x86)\GnuWin32\bin
 > C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+Most relevant ones:
+>> C:\Users\tijuk\AppData\Local\Programs\Python\Python36
+>> C:\Users\tijuk\AppData\Local\Programs\Python\Python36\Scripts
+>> C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
+>> C:\Program Files (x86)\Windows Kits\10\Redist\ucrt\DLLs\x64
+>> C:\Dev\MinGW\bin
+>> C:\Users\tijuk\Envs\emotion\Lib\site-packages\scipy\extra-dll
+>> C:\Users\tijuk\AppData\Local\Microsoft\WindowsApps
 
-//Relevant vars
-C:\Users\tijuk\AppData\Local\Programs\Python\Python36
-C:\Users\tijuk\AppData\Local\Programs\Python\Python36\Scripts
-C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
-C:\Program Files (x86)\Windows Kits\10\Redist\ucrt\DLLs\x64
-C:\Dev\MinGW\bin
-C:\Users\tijuk\Envs\emotion\Lib\site-packages\scipy\extra-dll
-C:\Users\tijuk\AppData\Local\Microsoft\WindowsApps
+%PYTHONPATH%
+> C:\Users\tijuk\AppData\Local\Programs\Python\Python36
 
->> %PYTHONPATH%
-C:\Users\tijuk\AppData\Local\Programs\Python\Python36
+Software Versions:
+> Python: 3.6
+> MinGW : Thread model: win32. gcc version 6.3.0 (MinGW.org GCC-6.3.0-1)
+> opencv: 3.5
 
->> Versions:
-Python: 3.6
-MinGW : Thread model: win32. gcc version 6.3.0 (MinGW.org GCC-6.3.0-1)
-opencv: 3.5
-
->> pip freeze
-absl-py==0.1.10
+pip freeze
+>> absl-py==0.1.10
 altgraph==0.15
 bleach==1.5.0
 certifi==2018.1.18
@@ -62,18 +61,18 @@ six==1.11.0
 tensorflow==1.5.0
 tensorflow-tensorboard==1.5.0
 urllib3==1.22
-Werkzeug==0.14.1
+>> Werkzeug==0.14.1
 
->> Changes to scripts:
+Changes to scripts:
 added:
-[ from scipy import optimize ] to [ emotions.py ]
+>> [ from scipy import optimize ] to [ emotions.py ]
 
->> Changes to .spec from it's generic value (obtained by running pyinstaller emotions.py,
+Changes to .spec from it's generic value (obtained by running pyinstaller emotions.py,
 just make sure to delete both [dist] and [build] directories)
 
-datas=[
+>> datas=[
     ('checkpoints\\epoch_75.hdf5','.\\checkpoints'),
     ('haarcascade_frontalface_default.xml','.'),
     ('emotions.mp4','.')
     ],
-hiddenimports=['scipy._lib.messagestream'],
+>> hiddenimports=['scipy._lib.messagestream'],
