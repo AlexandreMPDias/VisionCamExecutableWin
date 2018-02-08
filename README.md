@@ -65,10 +65,12 @@ urllib3==1.22
 Werkzeug==0.14.1
 
 >> Changes to scripts:
-added: [ from scipy import optimize ] to [ emotions.py ]
+added:
+[ from scipy import optimize ] to [ emotions.py ]
 
 >> Changes to .spec from it's generic value (obtained by running pyinstaller emotions.py,
 just make sure to delete both [dist] and [build] directories)
+
 datas=[
     ('checkpoints\\epoch_75.hdf5','.\\checkpoints'),
     ('haarcascade_frontalface_default.xml','.'),
