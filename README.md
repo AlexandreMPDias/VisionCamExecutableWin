@@ -1,5 +1,7 @@
 "# VisionCamExecutableWin" 
 
+To build a new version, execute logger.bat
+
 [README]
 
 Variables at %PATH%:
