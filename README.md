@@ -2,18 +2,18 @@
 
 [README]
 
->> Variables at %PATH%:
-C:\Users\tijuk\Envs\emotion\Scripts
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp
-C:\Program Files\Microsoft VS Code\bin
-C:\Windows\system32
-C:\Windows
-C:\Windows\System32\Wbem
-C:\Windows\System32\WindowsPowerShell\v1.0\
-C:\Program Files\MeuScript\bin
-C:\Program Files (x86)\GnuWin32\bin
-C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+Variables at %PATH%:
+> C:\Users\tijuk\Envs\emotion\Scripts
+> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
+> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp
+> C:\Program Files\Microsoft VS Code\bin
+> C:\Windows\system32
+> C:\Windows
+> C:\Windows\System32\Wbem
+> C:\Windows\System32\WindowsPowerShell\v1.0\
+> C:\Program Files\MeuScript\bin
+> C:\Program Files (x86)\GnuWin32\bin
+> C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
 
 //Relevant vars
 C:\Users\tijuk\AppData\Local\Programs\Python\Python36
