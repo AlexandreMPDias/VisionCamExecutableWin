@@ -28,7 +28,9 @@ Most relevant ones:
 
 Software Versions:
 > Python: 3.6
+
 > MinGW : Thread model: win32. gcc version 6.3.0 (MinGW.org GCC-6.3.0-1)
+
 > opencv: 3.5
 
 pip freeze
