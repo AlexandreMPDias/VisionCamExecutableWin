@@ -36,7 +36,8 @@ Software Versions:
 > opencv: 3.5
 
 pip freeze
-absl-py==0.1.10
+
+> absl-py==0.1.10
 altgraph==0.15
 bleach==1.5.0
 certifi==2018.1.18
